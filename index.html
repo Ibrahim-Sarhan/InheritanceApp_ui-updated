@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Document</title>
+</head>
+<body class="body">
+    <header class="header">
+        <h1 class="mainTitle">Inheritance App</h1>
+        <p class="describ-mainTitle">Very a simple app for calculating some condition of inheritence</p>
+    </header>
+    <section>
+        <div class="container">
+                <div class="estate-value-box box">
+                    <input class="input" type="number" name="" id="val" placeholder="أدخل قيمة التركة">
+                </div>
+                <div class="havewife-box box"">
+                    <p>هل لديك زوجة ؟</p>
+                    <select name="" id="select">
+                        <option value="1">نعم</option>
+                        <option value="0">لا</option>
+                    </select>
+                </div>
+                <div class="numbermale-box box">
+                    <input class="input" type="number" id="male" placeholder="عدد الذكور">
+                </div>
+                <div class="numberfemale-box box">
+                    <input class="input" type="number" id="female" placeholder="عدد الاناث">
+                </div>
+
+                <button class="submitBtn" onclick="calc()">أحسب</button>
+
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
